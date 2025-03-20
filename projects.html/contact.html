@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact us</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <img src="/images/logo.png" alt="Logo" class="logo"> <!-- شعار الموقع -->
+      <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About Us</a></li>
+            <li><a href="services.html"class="active">Services</a></li>
+            <li><a href="contact.html"class="active">Contact</a></li>
+        </ul>
+    </nav>
+    </div>
+  </header>
+  <section class="contact">
+    <h1>Leave a message</h1>
+
+    <!-- Contact Information -->
+    <div class="contact-info">
+        <p><i class="fas fa-phone"></i> Phone: +964 123 456 7890</p>
+        <p><i class="fas fa-envelope"></i> Email:info@mesopotamia.com</p>
+        <p><i class="fas fa-map-marker-alt"></i> Address: Baghdad, Iraq</p>
+    
+    </div>
+
+    <!-- Contact Form -->
+    <div class="contact-container">
+        <form id="contactForm">
+            <div class="input-box">
+                <input type="text" id="name" placeholder="Your name" required>
+            </div>
+            <div class="input-box">
+                <input type="email" id="email" placeholder="Your e-mail" required>
+            </div>
+            <div class="input-box">
+                <input type="text" id="subject" placeholder="Subject" required>
+            </div>
+            <div class="input-box">
+                <textarea id="message" placeholder="Message" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send a message</button>
+        </form>
+    </div>
+</section>
+  
+
+<footer style="background-color: #121212; color: white; padding: 30px 0;">
+    <div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; max-width: 1200px; margin: auto; text-align: left;">
+  
+        <!-- قسم الشعار والمعلومات -->
+        <div>
+            <img src="/images/logo.png" alt="Mesopotamia Logo" style="width: 150px; margin-bottom: 10px;">
+            <p><i class="fas fa-map-marker-alt"></i> Baghdad, Iraq</p>
+            <p><i class="fas fa-phone-alt"></i> +964 123 456 7890</p>
+            <p><i class="fas fa-envelope"></i> 
+                <a href="mailto:info@mesopotamia.com" style="color: white; text-decoration: none;">info@mesopotamia.com</a>
+            </p>
+        </div>
+  
+        <!-- قسم الشركة -->
+        <div>
+            <h3>Company</h3>
+            <p><a href="about.html" style="color: white; text-decoration: none;">About</a></p>
+            <p><a href="contact.html" style="color: white; text-decoration: none;">Contact us</a></p>
+        </div>
+  
+        <!-- قسم الخدمات -->
+        <div>
+            <h3>Services</h3>
+            <p><a href="#" style="color: white; text-decoration: none;">Translation</a></p>
+            <p><a href="#" style="color: white; text-decoration: none;">Event Management</a></p>
+            <p><a href="#" style="color: white; text-decoration: none;">Consulting</a></p>
+        </div>
+  
+        <!-- قسم المتابعة -->
+        <div>
+            <h3>Follow Us</h3>
+            <p>
+                <a href="https://www.linkedin.com/company/mesopotamia-company-for-translation-and-event-management/" 
+                   target="_blank" style="color: white; text-decoration: none;">
+                   <i class="fa-brands fa-linkedin"></i> LinkedIn
+                </a>
+            </p>
+        </div>
+    </div>
+  </footer>
+</body>
+</html>

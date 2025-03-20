@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <img src="images/logo.png"  class="logo"> <!-- شعار الموقع -->
+      <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About Us</a></li>
+            <li><a href="services.html"class="active">Services</a></li>
+            <li><a href="contact.html"class="active">Contact</a></li>
+        </ul>
+    </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+
+  <section class="hero" style="background-image: url('/images/3.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; background-attachment: fixed; color: white; font-size: 24px; font-weight: bold; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);">
+    <div class="overlay" style="background-color: rgba(0, 0, 0, 0); position: absolute; width: 100%; height: 100%; top: 0; left: 0;"></div>
+    <div style="position: relative; z-index: 1;">
+        <h2>Welcome to Mesopotamia</h2>
+        <p>We provide top-quality services to help you succeed.</p>
+        <a href="services.html" class="btn" style="background-color: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 10px;">Discover More</a>
+    </div>
+</section>
+
+  <section class="services">
+    <h1 style="color: #007BFF; text-align: center;">Our Services</h1>
+
+    <div class="service-container">
+      <div class="service-box">
+          <img src="images/2.jpg" alt="Event Planning">
+          <h3>Event Planning and Management</h3>
+          <p>We have extensive experience in planning and managing events of all types and sizes, including conferences, seminars, and more. We take care of every aspect of the event, from venue selection and vendor management to guest registration and on-site support.</p>
+          <a href="services.html">View Details</a>
+      </div>
+  
+      <div class="service-box">
+          <img src="images/4.jpg" alt="Translation Services">
+          <h3>Translation and Interpretation Services</h3>
+          <p>Our team of experienced translators and interpreters provides accurate and reliable translation services in a variety of languages. We can interpret using simultaneous, consecutive, and whisper interpretation methods, and we also translate documents, websites, and other materials, as well as provide on-site interpretation services.</p>
+          <a href="services.html">View Details</a>
+      </div>
+  
+      <div class="service-box">
+          <img src="/images/5.jpg" alt="Technical Support">
+          <h3>Technical Support</h3>
+          <p>We provide technical support for all types of events, including sound and lighting, video production, simultaneous equipment, Zoom-related equipment, and more. Our team of technicians is experienced in setting up and managing technical equipment to ensure that your event runs smoothly.</p>
+          <a href="services.html">View Details</a>
+
+      </div>
+  </div>
+</section>
+  <!-- About Section -->
+  <section class="about">
+    <div class="about-us-box">
+      <h2>About Us</h2>
+      <p>Mesopotamia is a leading company in event management and translation services, providing top-quality solutions to ensure the success of every event.</p>
+      <a href="about.html" class="btn">Learn More</a>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="contact-us-box">
+    <h2>Contact Us</h2>
+    <p>Address:  Baghdad, Iraq</p>
+    <p>Phone: +964 771 195 9119</p>
+    <p>Email: meso.info@mesopotamiairaq.org</p>
+    <a href="contact.html" class="btn">Get in Touch</a>
+</div>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<footer style="background-color: #121212; color: white; padding: 30px 0;">
+  <div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; max-width: 1200px; margin: auto; text-align: left;">
+
+      <!-- قسم الشعار والمعلومات -->
+      <div>
+          <img src="/images/logo.png" alt="Mesopotamia Logo" style="width: 150px; margin-bottom: 10px;">
+          <p><i class="fas fa-map-marker-alt"></i> Baghdad, Iraq</p>
+          <p><i class="fas fa-phone-alt"></i> +964 123 456 7890</p>
+          <p><i class="fas fa-envelope"></i> 
+              <a href="mailto:info@mesopotamia.com" style="color: white; text-decoration: none;">info@mesopotamia.com</a>
+          </p>
+      </div>
+
+      <!-- قسم الشركة -->
+      <div>
+          <h3>Company</h3>
+          <p><a href="about.html" style="color: white; text-decoration: none;">About</a></p>
+          <p><a href="contact.html" style="color: white; text-decoration: none;">Contact us</a></p>
+      </div>
+
+      <!-- قسم الخدمات -->
+      <div>
+          <h3>Services</h3>
+          <p><a href="services.html" style="color: white; text-decoration: none;">Translation</a></p>
+          <p><a href="services.html" style="color: white; text-decoration: none;">Event Management</a></p>
+          <p><a href="services.html" style="color: white; text-decoration: none;">Consulting</a></p>
+      </div>
+
+      <!-- قسم المتابعة -->
+      <div>
+          <h3>Follow Us</h3>
+          <p>
+              <a href="https://www.linkedin.com/company/mesopotamia-company-for-translation-and-event-management/" 
+                 target="_blank" style="color: white; text-decoration: none;">
+                 <i class="fa-brands fa-linkedin"></i> LinkedIn
+              </a>
+          </p>
+      </div>
+  </div>
+</footer>
+</body>
+</html>
